@@ -1,0 +1,5 @@
+tkinter
+numpy
+pandas
+scipy
+statsmodels
