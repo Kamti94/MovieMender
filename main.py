@@ -92,7 +92,7 @@ class StartPage(tk.Frame):
 		print(self.button2)
 		self.controller.show_frame("existing_user")
 
-str=os.path.join('.', '')
+str=os.path.join('.', 'movie_ratings', '')
 file_path=[str+'Action.txt',str+'Adventure.txt',str+'Animation.txt',str+'Childrens.txt',str+'Comedy.txt',str+'Crime.txt',
 		   str+'Documentary.txt',str+'Drama.txt',str + 'Fantasy.txt',str+'Film-noir.txt',str+'Horror.txt',str+'Musical.txt',
 		   str+'Mystery.txt',str+'Romance.txt',str+'Sci-Fi.txt',str+'Thriller.txt',str+'War.txt',str+'Western.txt']
@@ -276,8 +276,8 @@ class RecommendationsNewUser(tk.Frame):
 		# removing duplicates
 		global title
 		new_title = []
-		for element in title : 
-			if element not in new_title : 
+		for element in title :
+			if element not in new_title :
 				new_title.append(element)
 
 		title = new_title
