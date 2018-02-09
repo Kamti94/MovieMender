@@ -1,7 +1,7 @@
 import tkinter as tk   # python
 from tkinter import messagebox
 import RecommendationEngine
-import sadfgsd as sad
+import data_loader as sad
 import os
 import random
 TITLE_FONT = ("Helvetica", 18, "bold")
