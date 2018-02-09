@@ -1,3 +1,0 @@
-# MovieMender
-MovieMender - A Movie Recommendation System
-descripion goes here...
